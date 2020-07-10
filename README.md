@@ -6,4 +6,4 @@ You must have Pyhton installed
 
 ## About the game
 
-The game is called Matches, it starts at 21 and whoever takes the last match loses. There are two modes for this game, easy and hard.
+The game is called Matches, it starts at 21 and is played against the CPU. The goal of the game is to avoid taking the last match. You can only take a minimum of 1 match and a maximum of 3.There are two modes for this game, easy and hard. 
