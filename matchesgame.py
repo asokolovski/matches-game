@@ -1,4 +1,17 @@
 import random
+from turtle import *
+
+
+def drawMatches():
+  right(90)
+  for x in range(21):
+    forward(100)
+    up()
+    goto(10*(x+1),0)
+    down()
+  
+    
+  
 
 
 def usrinput():
@@ -11,6 +24,7 @@ def usrinput():
       continue
     
 def easymode():
+  drawMatches()
   total = 21
   while total > 0:
     print('\nthe total matches left is:'+str(total))
@@ -27,6 +41,7 @@ def easymode():
     print('\nthe computers number of matches is: '+str(cpu))
 
 def hardmode():
+  drawMatches()
   total = 21 
   while bool('true'):
     print('\nthe total matches left is: '+str(total)) 
@@ -47,7 +62,7 @@ def hardmode():
   
   
   
-
+drawMatches()
 
 
 print('\nWelcome to the matches game, your goal is to NOT take the last match while starting at 21 and only being able to subtract 1,2 or 3 matches.\n')
